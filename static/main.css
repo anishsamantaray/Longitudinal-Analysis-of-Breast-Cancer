@@ -1,0 +1,90 @@
+html {
+  background: url("istockphoto-1342154650-170667a.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+input[type=text] {
+  width:200px;
+  padding:10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+
+}
+.button {
+    background-color: #2a2a72;
+    color: #ffffff;
+    padding: 20px 40px;
+  border:1px solid #111;
+     border-radius:10px;
+    background-image: linear-gradient(315deg, #2a2a72 0%,#009ffd 74%);
+}
+.button:hover {
+
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #2a2a72 0%,#ffffff 100%);
+    color: #1e500d;
+    border:1px solid #111;
+    border-radius:10px;
+}
+
+.header {
+
+  overflow: hidden;
+  padding: 20px 10px;
+    margin: -15px;
+    background-color: #111111;
+    text-align: center;
+
+}
+
+/* Style the header links */
+.logo {
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer {
+
+  overflow: hidden;
+  padding: 20px 10px;
+    margin: -15px;
+    background-color: #111111;
+    text-align: center;
+
+}
+
+/* Style the header links */
+
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.footer a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

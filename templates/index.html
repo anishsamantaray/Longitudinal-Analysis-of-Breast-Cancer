@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Breast Cancer TARP</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+<div class="header">
+ <a href="#default" class="logo" >Longitudnal Analysis of Breast Cancer</a>
+
+</div><BR><BR><BR>
+
+  <center> {%  if result %}
+    <h3 id="result">{{ result }}</h3>
+
+    {% endif %}</center>
+<script type="text/javascript">
+            if(document.getElementById('result').textContent == "Breast Cancer Will Not Re-Occur for this conditions"){
+               document.getElementById('result').style.color = "green";
+            } else {
+                document.getElementById('result').style.color = "red";
+            }
+        </script>
+
+<center><form  method="post" action="/predict" >
+    <div class="row">
+  <div class="column">
+
+
+    <input type="text" name="time" placeholder="Time since Cancer Detection "><br><br>
+
+
+    <input type="text" name="radius_mean"  placeholder="Mean of Radius "><br><br>
+
+
+    <input type="text" name="texture_mean" placeholder="Mean of texture "><br><br>
+
+
+    <input type="text" name="smoothness_mean"  placeholder="Mean of smoothness "><br><br>
+
+
+    <input type="text" name="compactness_mean" placeholder="Mean of Compactness "><br><br>
+
+
+    <input type="text" name="concave points_mean" placeholder="Mean of Concave Points "><br><br>
+
+
+    <input type="text" name="symmetry_mean" placeholder="Mean of Symmetry"><br><br>
+
+</div>
+        <div class="column">
+    <input type="text" name="fractal_dimension_mean" placeholder="Mean of fractal Dimension"><br><br>
+
+
+    <input type="text" name="texture_se" placeholder="Standard Error of texture"><br><br>
+
+
+    <input type="text" name="perimeter_se" placeholder="Standard Error of perimeter"><br><br>
+
+
+
+    <input type="text" name="smoothness_se" placeholder="Standard Error of smoothness"><br><br>
+
+
+    <input type="text" name="concavity_se" placeholder="Standard Error of concavity"><br><br>
+
+
+    <input type="text" name="concave points_se" placeholder="Standard Error of concave points"><br><br>
+
+
+    <input type="text" name="symmetry_se" placeholder="Standard Error of Symmetry"><br><br>
+
+        </div>
+        <div class="column">
+    <input type="text" name="fractal_dimension_se" placeholder="Standard Error of fractal dimension"><br><br>
+
+
+    <input type="text" name="smoothness_worst" placeholder="Worst Case of Smoothness" ><br><br>
+
+
+    <input type="text" name="compactness_worst"  placeholder="Worst Case of Compactness" ><br><br>
+
+
+    <input type="text" name="concave points_worst" placeholder="Worst Case of Concave points"><br><br>
+
+
+    <input type="text" name="symmetry_worst" placeholder="Worst Case of Symmetry"><br><br>
+
+
+    <input type="text" name="Tumor Size" placeholder="Size of the tumor"> <br><br>
+
+    <input type="text" name="Lymph node status" placeholder="Status of Lymph Node"><br><br>
+</div>
+    </div>
+    <input type="submit" name="Predict" class="button"><br><br>
+
+</form></center><BR>
+<center><button class="button" href=""><strong>Data Visualisation</strong></button></center><br><br><br>
+<div class="footer">
+ <a href="#default" class="logo" >By Anish Samantaray , Saravanan C , Meghana Bollam</a>
+
+</div>
+
+
+</body>
+</html>
