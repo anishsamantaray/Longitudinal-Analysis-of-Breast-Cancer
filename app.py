@@ -39,4 +39,4 @@ def predict_can():  # put application's code here
         result = "Breast Cancer Will  Re-Occur for this conditions"
     return render_template('index.html',result=result)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
