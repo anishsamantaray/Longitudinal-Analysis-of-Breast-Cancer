@@ -1,8 +1,8 @@
 # Breast Cancer Prognosis Analysis 
 
   Breast Cancer is of the <strong> most common cancer </strong> not only affecting women but also men. Diagnosis becomes very critical in such a situation  ,
-  but after diagnosis also a person after curing also doesn’t lead a normal life , biopsies become a common part of his journey which is very painful. 
-  <strong>In such a situation we have proposed to do Longitudinal analysis of Breast cancer patients can be done using Machine Learning and Deep Learning analysis 
+  but after diagnosis and curing also doesn’t lead a normal life , biopsies become a common part of his journey which is very painful. 
+  <strong>In such a situation we have proposed to do Longitudinal analysis of Breast cancer patients . It can be done using Machine Learning and Deep Learning analysis 
   and exploratory data analysis using PowerBI </strong>.
 
 ## Requirements
@@ -53,5 +53,5 @@ https://user-images.githubusercontent.com/84379934/230436833-c62896a4-2237-427e-
 
 ## Performance Metrics
 
-The Highest accuracy is recievced by LightGBM WHICH IS 87.8%, after PCA logistic Regression gives thE highest around 84% and with balnced weight class Random Forest gives highest with 87.8%.
+The Highest accuracy is recievced by LightGBM WHICH IS 87.8%, after PCA logistic Regression gives the highest around 84% and with balnced weight class Random Forest gives highest with 87.8%.
 The complete Results is to be viewed in Result excel sheet.
