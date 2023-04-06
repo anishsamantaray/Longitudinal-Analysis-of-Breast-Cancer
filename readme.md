@@ -41,21 +41,6 @@ Won a Bronze medal for contributing the kernal in Kaggle
 8. Created a Web app using Flask and import pickle file and design it.
 9. Deploy using a Cloud Service
 
-## Results
-
-Performance Metrics Initially
-![image](https://user-images.githubusercontent.com/84379934/230446172-c06b6962-1e6b-4339-80c0-057b16265430.png)
-
-Performance Metrics after Balancing Class Weights
-
-![image](https://user-images.githubusercontent.com/84379934/230446517-fbe9b593-9734-48af-9908-28e8137a2b63.png)
-
-Performance Metrics after PCA
-
-![image](https://user-images.githubusercontent.com/84379934/230446667-89c319d3-bec5-483d-aa83-f4901a9cb65a.png)
-
-* All Values are in % and Yellow Colour denotes improvement in value from initial
-
 ## Website Demo
 
 [screen-capture.webm](https://user-images.githubusercontent.com/84379934/230427516-aac769b4-c333-455a-898f-038af79d18e4.webm)
