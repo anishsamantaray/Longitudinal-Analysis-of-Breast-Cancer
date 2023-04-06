@@ -41,6 +41,11 @@ Won a Bronze medal for contributing the kernal in Kaggle
 8. Created a Web app using Flask and import pickle file and design it.
 9. Deploy using a Cloud Service
 
+## Results
+
+Performance Metrics Initially
+![img_2.png](img_2.png)
+
 ## Website Demo
 
 [screen-capture.webm](https://user-images.githubusercontent.com/84379934/230427516-aac769b4-c333-455a-898f-038af79d18e4.webm)
