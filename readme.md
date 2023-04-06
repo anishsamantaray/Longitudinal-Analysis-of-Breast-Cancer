@@ -8,12 +8,10 @@
 ## Libraries Required
 
 ```bash
-
-pip install lightgbm
 pip install numpy as np
 pip install Flask
 pip install pickle5
-
+pip install lightgbm
 ```
 ## Dataset Used
 
@@ -23,5 +21,18 @@ Link: https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(Prognosti
 
 Link : https://www.kaggle.com/code/anishsamantaray/wisconsin-wpbc-breast-cancer-prognosis
 
-Won a Bronze medal at Kaggle for contributing in Kaggle 
+Won a Bronze medal at Kaggle for contributing the kernal
+
+## Approach
+
+1. Reading the Data
+2. Data Pre-Processing --- Clearing null values, Removing columns which have correlation >0.8 with other column, Log Transforming Skewed Columns, Checking if data is balanced 
+3. Applied ML models and check perfomance metrics
+4. Since data is unbalanced add class_wight=balanced Hyperparameter,Check performance metrics 
+5. Applied PCA and Checked Performance Metrics
+6. Export the preprocessed dataset for PowerBI operations
+7. Export Best model i.e. LightGBM as Pickle File
+8. Created a Web app using Flask and import pickle file and design it.
+9. Deploy using a Cloud Service
+
 
