@@ -37,4 +37,4 @@ Won a Bronze medal for contributing the kernal in Kaggle
 
 ## Video of the Website
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/i-nkbo0cOv0)
+[screen-capture.webm](..%2F..%2FDownloads%2Fscreen-capture.webm)
