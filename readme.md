@@ -56,3 +56,7 @@ Performance Metrics Initially
 
 https://user-images.githubusercontent.com/84379934/230436833-c62896a4-2237-427e-853e-08a1eb508e5e.mp4
 
+## Performance Metrics
+
+The Highest accuracy is recievced by LightGBM WHICH IS 87.8%, after PCA logistic Regression gives thE highest around 84% and with balnced weight class Random Forest gives highest with 87.8%.
+The complete Results is to be viewed in Result excel sheet.
