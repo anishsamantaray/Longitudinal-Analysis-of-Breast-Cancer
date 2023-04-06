@@ -6,7 +6,12 @@
   and exploratory data analysis using PowerBI </strong>.
   
 ## Installation
+
+```bash
+
 pip install lightgbm
 pip install numpy as np
 pip install Flask
 pip install pickle5
+
+```
