@@ -15,4 +15,13 @@ pip install Flask
 pip install pickle5
 
 ```
+## Dataset Used
+
+Link: https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(Prognostic)
+
+## My Kaggle Notebook Link
+
+Link : https://www.kaggle.com/code/anishsamantaray/wisconsin-wpbc-breast-cancer-prognosis
+
+Won a Bronze medal at Kaggle for contributing in Kaggle 
 
