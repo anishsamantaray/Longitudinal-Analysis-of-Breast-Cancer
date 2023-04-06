@@ -44,7 +44,7 @@ Won a Bronze medal for contributing the kernal in Kaggle
 ## Results
 
 Performance Metrics Initially
-![img_2.png](img_2.png)
+
 
 ## Website Demo
 
