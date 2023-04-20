@@ -1,5 +1,13 @@
-html {
+html .a{
   background: url("istockphoto-1342154650-170667a.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html .b{
+  background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,4 +95,50 @@ input[type=text] {
   content: "";
   display: table;
   clear: both;
+}
+
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: Black;
+  font-size: 55px;
+  font-weight: 1000;
+  font-family: Montserrat, serif;
+}
+.center .sub_title{
+  color: Black;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button{
+  color: #fff;
+  background: none;
+}
+.btns button:hover{
+  background: white;
+  color: black;
 }

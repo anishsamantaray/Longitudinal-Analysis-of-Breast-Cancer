@@ -7,6 +7,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():  # put application's code here
+    return render_template('home.html')
+
+@app.route('/index')
+def index1():  # put application's code here
     return render_template('index.html')
 @app.route('/predict',methods=['POST'])
 def predict_can():  # put application's code here
