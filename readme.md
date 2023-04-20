@@ -63,6 +63,4 @@ https://user-images.githubusercontent.com/84379934/230544099-9b946069-08d0-4694-
 
 https://user-images.githubusercontent.com/84379934/230436833-c62896a4-2237-427e-853e-08a1eb508e5e.mp4
 
-## Credits
 
-Saravanan C : https://github.com/saravanan290702 [Fellow Contributor]
