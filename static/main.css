@@ -7,7 +7,8 @@ html .a{
 }
 
 html .b{
-  background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+
+  background: linear-gradient(135deg, rgb(249, 119, 148) 10%, rgb(98, 58, 162) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -106,11 +107,12 @@ input[type=text] {
   padding: 0 20px;
   text-align: center;
 }
-.center .title{
+.center .title {
   color: Black;
   font-size: 55px;
   font-weight: 1000;
-  font-family: Montserrat, serif;
+  font-family: Andika;
+  font-style: italic;
 }
 .center .sub_title{
   color: Black;
@@ -128,11 +130,12 @@ input[type=text] {
   margin: 0 10px;
   border: 2px solid white;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease;
+  font-family: Andika;
 }
 .center .btns button{
   color: #fff;
