@@ -64,3 +64,4 @@ https://user-images.githubusercontent.com/84379934/230544099-9b946069-08d0-4694-
 https://user-images.githubusercontent.com/84379934/230436833-c62896a4-2237-427e-853e-08a1eb508e5e.mp4
 
 
+The project  has been accepted for publication in the forthcoming IET Book ‘Explainable Artificial Intelligence (XAI): Concepts, enabling tools, technologies and Applications’.
