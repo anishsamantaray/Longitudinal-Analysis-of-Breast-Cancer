@@ -44,7 +44,7 @@ Won a Bronze medal for contributing the kernal in Kaggle
 
 ## Performance Metrics
 
-The Highest accuracy is recievced by LightGBM WHICH IS 87.8%, after PCA logistic Regression gives the highest around 84% and with balnced weight class Random Forest gives highest with 87.8%.
+The Highest accuracy is recievced by LightGBM which IS 87.8%, after PCA logistic Regression gives the highest around 84% and with balnced weight class Random Forest gives highest with 87.8%.
 The complete Results is to be viewed in Result excel sheet.
 
 ## Website Demo
